@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    justify-items: center;
+    
+}
+.navigation{
+    width: 100%;
+    height: 60px;
+    background-color: #30598c;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 120px;
+}
+.avatar{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-weight: bold;
+    margin: 0px 30px;
+
+}
+.sub-menu{
+    display: flex;
+}
+.sub-menu a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+li{
+    list-style-type: none;
+    margin: 0px 20px 0px 0px;
+}
+.sub-menu a:hover{
+    color: gray;
+}
+/* menu cap con*/
+.sub-menu{
+    position: relative;
+}
+.child-menu{
+    position: absolute;
+    padding-top: 0px;
+    display: none;
+
+}
+.child-menu li{
+    padding: 10px;
+    background-color: rgb(117, 210, 210);
+    padding-left: 0px;
+}
+.sub-menu li:hover .child-menu{
+    display: block;
+}
+.menu-cuoi {
+    width: 300px;
+}
+.part1{
+    width: 100%;
+    height: 530px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 56%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.right{
+    width: 28%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.left img{
+  width: 100%;
+  height: 100%; 
+  object-fit: fill;
+}
+.info{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 25%);
+}
+.logo1 {
+    width: 30%;
+    height: 100%;
+}
+.logo1 img{
+  width: 100%;
+  height: 100%; 
+  object-fit: fill;
+}
+.baiviet{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100%;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+}
+.post-tieude{
+    color: #464646;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.post-noidung{
+    color: #757575;
+    font-size: 1rem;
+}
