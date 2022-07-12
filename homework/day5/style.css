@@ -38,6 +38,7 @@ li{
     padding-left: 8px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .menu li:hover{
     background-color: #eee;
@@ -73,6 +74,18 @@ li{
 }
 .sub-menu li:hover .child-menu{
     display: block;
+}
+li span{
+    font-size: 18px ;
+    color: orange;
+    padding-right: 4px;
+    display: none;
+}
+li:hover > span {
+    display: block;
+}
+.child-menu li:hover{
+    background-color: white;
 }
 
 
