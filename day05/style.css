@@ -150,3 +150,100 @@ li{
     color: #757575;
     font-size: 1rem;
 }
+.part2{
+    width: 100%;
+    height: 500px;
+    background-color: #f5faff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.tieude{
+    width: 44%;
+    height: 320px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.picture{
+    width: 44%;
+    height: 320px;
+    margin-top: 32px;
+    padding: 0 15px;
+} 
+.tieude h3{
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.tieude p{
+    font-size: 16px;
+    color: #464646;
+    line-height: 24px
+}
+.button{
+    width: 215px;
+    height: 50px;
+    background-color: #30598c;  
+    margin-top: 48px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: white;
+    border: #30598c;
+    border-style: solid;
+}
+.button:hover a{
+    color: #30598c;
+}
+.large-pic{
+    width: 100%;
+    height: 100%;
+    border: white;
+    border-width: 5px;
+    border-style: solid;
+}
+#footer{
+    width: 100%;
+    height: 420px;
+    background-color: #30598c;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: center;
+}
+.boxx{
+    width: 20%;
+    height: 325px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 200;
+}
+.boxx a{
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+}
+.boxx a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.boxx p {
+    margin-top: 15px;
+}
