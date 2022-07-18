@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .reactangle{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            /* transition: all 2s linear; */
+            transition-property: with height background-color;
+            transition-delay: 200ms;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+
+        }
+        .reactangle:hover {
+            background-color: red;
+            width: 200px;
+            height: 400px;
+            transform: rotate(45deg);
+        }
+        .abcd{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(4, 0, 128);
+            /* transition: all 2s linear; */
+            transition-property: with height background-color;
+            transition-delay: 200ms;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            margin-top: 20px;
+        }
+        .abcd:hover {
+            background-color: red;
+            border-radius: 50%;
+        }
+        .rect{
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            background-color: yellow;
+            animation-name: change-many-color;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes change-color {
+            from{
+                background-color: yellow;
+            }
+            to{
+                background-color: blueviolet;
+            }
+        }
+        @keyframes change-many-color{
+            10%{
+                background-color: green;
+            }
+            30%{
+                background-color: teal;
+            }
+            50%{
+                background-color: black;
+            }
+            70%{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reactangle"></div>
+    <div class="abcd"></div>
+    <div class="rect"></div>
+    <a href="./luyentap.html" target="_blank">luyentap</a>
+    <a href="other.html#footer" target="_blank">other tab</a>
+</body>
+</html>

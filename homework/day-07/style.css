@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+#container{
+    width: 432px;
+    height: 552px;
+    margin: 80px auto;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.head{
+    width: 100%;
+    height: 82px;
+    padding: 10px 16px;
+}
+.main{
+    width: 100%;
+    height: 470px;
+    padding: 16px;
+    border-top: 1px solid #dadde1;  
+}
+.dangky{
+    color: #1c1e21;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+.phu{
+    color: #606770;
+    font-size: 15px;
+    line-height: 24px;
+}
+.mini-text{
+    display: flex;
+    justify-content: space-between;
+}
+.mini-text input{
+    width: 194px;
+    padding: 11px;
+    line-height: 16px;
+    font-size: 15px;
+    background: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.text{
+    width: 100%;
+    padding: 11px;
+    line-height: 16px;
+    font-size: 15px;
+    background: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.text, .mini-text :focus{
+    outline: none!important;
+}
+.nhanx{
+    color: #606770;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+.birthday{
+    display: flex;
+    justify-content: space-between;
+}
+.birthday select{
+    width: 125px;
+    height: 36px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    padding: 0px 20px 0px 8px;
+    border: 1px solid #ccd0d5;
+}
+select:focus{
+    outline: none!important;
+}
+.gender div{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-size: 15px;
+    border: 1px solid #ccd0d5;
+    padding-left: 3px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 36px;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.female{
+    width: 104px;
+}
+.male{
+    width: 115px;
+}
+.other{
+    width: 149px
+}
+a{
+    text-decoration: none;
+    color: #385898;
+}
+a:hover{
+    text-decoration:underline
+}
+.note{
+    margin: 11px 0px;
+    color: #777;
+    font-size: 11px;
+}
+button{
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    width: 194px;
+    height: 36px;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+   

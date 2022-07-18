@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .rect {
+        width: 800px;
+        height: 400px;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        border-radius: 4px;
+      }
+      .avatar {
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+      }
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+      }
+      .title {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .rect:hover .title{
+        color: red;
+      }
+      .rect:hover img{
+        transition: all 2s linear;
+        transform: scale(1.5);
+        max-width: 100%;
+      }
+      .title p{
+        transition: all 2s linear;
+      }
+      .icon{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+      }
+       .icon i {
+        animation-name: change;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-delay: 6s;
+        font-size: 30px;
+      }
+      @keyframes change{
+        20%{
+            transform: scale(1.5);
+        }
+        80% {
+            transform: scale(3);
+        }
+        200%{
+            transform: scale(0.5);
+        }
+        100%{
+            transform: scale(5);
+        }
+        50%{
+            transform: scale(1);
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rect">
+      <div class="avatar">
+        <img
+          src="http://hanoimoi.com.vn/Uploads/images/phananh/2021/12/21/soccer.jpg"
+        />
+      </div>
+      <div class="title"><p>Qua Bong</p></div>
+    </div>
+    <div class="icon">
+        <i class="fa-solid fa-gamepad">play to win</i>
+    </div>
+  </body>
+</html>
