@@ -1,0 +1,160 @@
+*{
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+}
+#heading{
+    width: 100%;
+    height: 60px;
+    background-color: #232323;
+    display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.menu > li{
+    list-style-type: none;
+    margin: 0px 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    margin-left: 20px;
+}
+.sub-menu{
+    display: none;
+    background-color: #343434;
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.sub-menu li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+li:hover > a{
+    color: orange;
+}
+li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top: 40px;
+}
+#content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 215px;
+    background-color: black;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 5px 2px 4px red;    
+}
+.bot{
+    width: 100%;
+    height: 1200px;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+}
+.khung {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+.game{
+    width: 260px;
+    height: 430px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.image{
+    width: 100%;
+    height: 40%;
+}
+.noidung{
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+img{
+    width: 260px;
+    object-fit: cover;
+}
+h4{
+    color: white;
+    font-size: 30px;
+}
+.noidung a{
+    width: 74px;
+    height: 45px;
+    background-color: red;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.noidung a:hover{
+    background-color: rgb(112, 3, 3);
+    color: orange;
+}
+.trang{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 200px;
+}
+.trang a{
+    margin-right:20px ;
+}
+.trang a:hover{
+    color: orange;
+}
+#footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.avatar{
+    height: 400px;
+    width: 400px;
+}
+

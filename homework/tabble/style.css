@@ -21,6 +21,10 @@ td{
     border: 1px solid #524949;
     font-weight: bold;
 }
+tr th:first-child{
+    text-align: start;
+    padding-left: 3px;
+}
 th{
     height: 34px;
     font-size: 16px;
