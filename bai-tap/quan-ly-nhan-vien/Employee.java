@@ -14,7 +14,7 @@ public class Employee{
 
 
     public Employee(String id, String name, LocalDate birthday, GENDER gender, double salary){
-        this.id = id;
+        this.id = "NV" +id;
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;

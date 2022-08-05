@@ -7,23 +7,23 @@ public class Main {
 
         Employee[] employee = new Employee [5];
 
-        employee[0] = new Employee("NV01", "Nguyen Van Hoang",
+        employee[0] = new Employee("01", "Nguyen Van Hoang",
                           LocalDate.of(1998, 06, 18),
                           GENDER.MALE, 120000000);
 
-        employee[1] = new Employee("NV02", "Le Dinh Cong",
+        employee[1] = new Employee("02", "Le Dinh Cong",
                           LocalDate.of(1997, 02, 21),
                           GENDER.MALE, 20000000);
         
-        employee[2] = new Employee("NV03", "Johnny Depp",
+        employee[2] = new Employee("03", "Johnny Depp",
                           LocalDate.of(1963, 06, 9),
                           GENDER.MALE, 30000000);
 
-        employee[3] = new Employee("NV04", "Elizabeth Olsen",
+        employee[3] = new Employee("04", "Elizabeth Olsen",
                           LocalDate.of(1989, 02, 16),
                           GENDER.FEMALE, 25000000);
         
-        employee[4] = new Employee("NV05", "Tran Thi Hong Duyen",
+        employee[4] = new Employee("05", "Tran Thi Hong Duyen",
                           LocalDate.of(1997, 11, 04),
                           GENDER.FEMALE, 12000000);
 
@@ -91,7 +91,7 @@ public class Main {
         
          }
          if(count == 0){
-            System.out.println("Khong co nhan vien nao");
+            System.out.println("    Khong co nhan vien nao");
          }
 
     //  Nhập từ bàn phím tháng bất kỳ trong năm; kiểm tra xem trong tháng đó có những nhân viên nào có ngày sinh nhật
@@ -106,7 +106,7 @@ public class Main {
             }
         }
         if(isBirthday == false){
-            System.out.println("Khong co ai sinh nhat trong thang nay");
+            System.out.println("    Khong co ai sinh nhat trong thang nay");
         }
 
     // In ra top 3 người có lương tháng cao nhất
@@ -123,7 +123,7 @@ public class Main {
             }
          }
          for(int index = 0; index < 3; index++){
-            System.out.println("    Top" + (index+1) + ": " +topLuong[index].id +" " +  topLuong[index].name);
+            System.out.println("    Top" + (index+1) + ": " +topLuong[index].id +" " +  topLuong[index].name + "  " +topLuong[index].salary +"$");
          }
 
 
