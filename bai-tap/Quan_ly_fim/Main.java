@@ -84,6 +84,7 @@ import java.util.Scanner;
             seri.printSeri();
         }
        }
+    //    cach 2 
 
     
     //    In ra tên đạo diễn của thể loại COMEDY có ranking thấp nhất
