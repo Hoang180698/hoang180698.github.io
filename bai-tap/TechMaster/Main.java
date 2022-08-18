@@ -76,6 +76,7 @@ public class Main {
         for (Student stu : students){
             if(stu.getId().equals(moveId)){
                 students.remove(stu);
+                break;
             }
         }
         System.out.println("Danh sach mới: ");
